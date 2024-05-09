@@ -1,0 +1,64 @@
+.v-center-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.overview-text {
+  /*text-align: center; */
+  /* This is not working */
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* footnote size */
+[id^=fn] {
+  font-size: 0.6em !important;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#vcenter {
+  vertical-align: middle;
+}
+
+.reveal #center {
+  text-align: center;
+  color: aqua;
+}
+
+.smaller {
+  font-size: 0.8em;
+}
+
+#title-slide-text>.title {
+  font-size: 2em;
+}
+
+/* entire box */
+#title-slide-text {
+  float: left;
+  width: 73%;
+  margin-top: 10%;
+  /* border: 1px solid green; */
+}
+
+.f50 {
+  font-size: 50%;
+}
+
+.big-source-code {
+  font-size: 2em;
+}
+
+/* for making the source code div shorter */
+#short-r .sourceCode .numberSource .r {
+  height: 150px
+}
